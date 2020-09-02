@@ -15,8 +15,8 @@ const Todos = () => {
 
   const onSubmit = (event) => {
     event.preventDefault();
-    // const todo = newTodo(inputValue);
-    // setTodos((oldTodos) => [todo, ...oldTodos]);
+    const todo = newTodo(inputValue);
+    setTodos((oldTodos) => [todo, ...oldTodos]);
     setInputValue("");
   };
 
